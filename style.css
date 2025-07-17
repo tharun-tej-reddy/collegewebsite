@@ -1,0 +1,37 @@
+*{
+ margin: 0px;
+ 
+}
+#studentlogin{
+   font-size: 20px;
+    height:350px;
+    width: 400px;
+   background-color:cornsilk;
+    border-radius: 10px;
+  text-align: center;
+}
+#employlogin{
+   font-size: 20px;
+    height:350px;
+    width: 400px;
+    background-color:cornsilk;
+    border-radius: 10px;
+  text-align: center;
+}
+body{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: lightblue;
+}
+.submit{
+   font-size: 23px;
+   border-radius: 6px;
+   background-color: #17a2b8;
+   border:none;
+   
+}
+.submit:hover{
+    cursor: pointer;
+}

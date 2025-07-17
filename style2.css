@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    height: 100vh;
+    width:250px;
+    background-color:#212121;
+    color:white;
+    text-align: center;
+    
+#dashboard{
+    
+    height: 100vh;
+    width:250px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    text-align: center;
+    
+}
+}
+.icons{
+    font-size: 26px;
+  margin-right: 10px;
+}
+.options{
+    height:33px;
+    width: 100%;
+    cursor:pointer;
+}
+.options:hover{
+    background-color:grey;
+    color:#ffffff	;
+    font-weight: bold;
+    
+}
+#admin{
+    padding-top: 15px;
+    cursor: pointer;
+    color: #CE93D8;
+}
+#container{
+    display:flex;
+    height:100vh;
+    width:100vw;
+    overflow: hidden;
+}
+
+#profile{
+    
+    height:100vh;
+    width:100%;
+    background-color:yellow;
+    border-left:2px solid white;
+}
+ul{
+    list-style-type: none;
+}
+#biodata{
+    text-decoration:underline;
+margin-top: 20px;
+ margin-left: 400px;
+ color: #2C2C2C;
+
+}
+
+
+#content{
+    height:550px;
+    width:100%;
+    display: flex;
+   
+    align-items: center;
+    
+}
+#profilepic{
+    height: 300px;
+    width:270px;
+    margin-top: 50px;
+    margin-right: 50px;
+    
+}
+
+#matter{
+    margin-left: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.high{
+    color:red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+

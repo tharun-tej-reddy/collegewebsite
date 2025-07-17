@@ -1,0 +1,32 @@
+<?php
+session_start();
+
+$username = $_SESSION['username'] ?? 'Guest';
+
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="style2.css">
+    <link rel="icon" type="image/png" href="Tharunlogo.png">
+</head>
+<body>
+    <div id="sidebar"> 
+        <h2 id="admin"><?php echo "Welcome ,{$username}";?></h2>
+        <ul id="dashboard">
+            <li class="options" ><a href="adminpage.php" style="text-decoration:none;color:inherit" ><i class="fa-solid fa-user icons"></i>My profile</a></li>
+            <li  class="options" style="background-color:red"><a href="addstudent.php"  style="text-decoration:none;color:inherit" ><i class="fa-solid fa-user icons" ></i>Add Student Profile</a></li>
+            <li class="options"><a href="https:google.com" target="_blank" style="text-decoration:none;color:inherit" ><i class="fa-solid fa-clipboard-list icons"  ></i>Manage Attendance</a></li>
+            <li class="options"><a href="https:google.com" target="_blank" style="text-decoration:none;color:inherit" ><i class="fa-solid fa-chart-simple icons"></i>Marks & Results</a></li>
+            <li class="options"><a href="https:google.com" target="_blank" style="text-decoration:none;color:inherit" ><i class="fa-solid fa-calendar-week icons"></i>Time Table</a></li>
+           <li class="options"> <a href="https:google.com" target="_blank" style="text-decoration:none;color:inherit" ><i class="fa-solid fa-bell icons"></i>Notifications</a></li>
+            <li class="options"><a href="https:google.com" target="_blank" style="text-decoration:none;color:inherit" ><i class="fa-solid fa-gear icons"></i>Settings</a></li>
+        </ul>
+    </div>
+</body>
+</html>
