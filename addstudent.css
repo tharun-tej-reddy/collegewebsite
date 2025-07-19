@@ -5,7 +5,7 @@
     
 }
 #personal{
-    height:380px;
+    height:340px;
     width:650px; 
     margin-top: 50px; 
     margin-left: 120px;
@@ -44,4 +44,20 @@
     width:360px;
     height: 25px;
     margin-left:30px ;
+  }
+  #addstudent{
+    margin-top: 20px;
+    margin-left: 350px;
+    margin-bottom: 20px;
+    height:40px;
+    width: 140px;
+    border-radius: 7px;
+    background-color:aqua;
+    color:black;
+    border-color:aqua;
+    font-size: 20px;
+  }
+  #addstudent:hover{
+    cursor: pointer;
+    
   }

@@ -26,7 +26,8 @@ $username = $_SESSION['username'] ?? 'Guest';
             <li class="options"><a href="https:google.com" target="_blank" style="text-decoration:none;color:inherit" ><i class="fa-solid fa-chart-simple icons"></i>Marks & Results</a></li>
             <li class="options"><a href="https:google.com" target="_blank" style="text-decoration:none;color:inherit" ><i class="fa-solid fa-calendar-week icons"></i>Time Table</a></li>
            <li class="options"> <a href="https:google.com" target="_blank" style="text-decoration:none;color:inherit" ><i class="fa-solid fa-bell icons"></i>Notifications</a></li>
-            <li class="options"><a href="https:google.com" target="_blank" style="text-decoration:none;color:inherit" ><i class="fa-solid fa-gear icons"></i>Settings</a></li>
+           <li class="options"><a href="https:google.com" target="_blank" style="text-decoration:none;color:inherit" ><i class="fa-solid fa-gear icons"></i>Settings</a></li>
+            <li class="options"><a href="loginpage.php" style="text-decoration:none;color:inherit" ><i class="fa-solid fa-gear icons"></i>Logout</a></li>
         </ul>
     </div>
     <div id="profile">
